@@ -9,3 +9,4 @@ pip install -r requirements.txt
 
 # Execute Django's compilation algorithm to bundle assets cleanly
 python3 manage.py collectstatic --noinput --clear
+echo "COLLECTSTATIC RAN SUCCESSFULLY"
